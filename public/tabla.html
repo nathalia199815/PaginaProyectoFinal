@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js%22%3E"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js%22%3E"></script>
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"></script>
+    <title>Sport Shop</title>
+</head>
+
+
+<body style="background-color:#F5DEB3">
+    <div class="container"> 
+    <h1 style="text-align:center ; margin-top:60px; margin-bottom:40px"><i class="fa-duotone fa-shoe-prints"></i>     Ingreso de los Datos     <i class="fa-duotone fa-shoe-prints"></i> </h1>
+
+<form name='agregarItem' action='/tabla1', method='GET'>
+    <div class="container">
+      
+        <div class="card" style="margin-bottom:20px;background-color:aliceblue;width:400px;margin-left:260px">
+            
+                <label>Marca</label>
+                <input name="Marca" class="form-control" ID="txtmarca">
+                <br>
+            
+        </div>
+      
+        <div class="card" style="margin-bottom:20px; background-color:aliceblue;width:400px;margin-left:260px">
+          
+                <label>Precio</label>
+                <input name="Precio" class="form-control" ID="txtprecio">
+                <br>
+            
+        </div>
+        <div class="card" style="margin-bottom:20px;background-color:aliceblue;width:400px;margin-left:260px">
+            
+                <label>Descripcion</label>
+                <input name="Descripcion" class="form-control" ID="txtdescripcion">
+                <br>
+           
+        </div>
+       
+
+    </div>
+
+    <div class="container" style="margin-top:20px;margin-bottom:70px">
+        <button class="btn btn-primary" type='submit' style="width:20%;
+        margin-left:40%;
+        margin-right:50%;" >Comprar</button>
+    </div>
+</form>
+</div>
+<div class="card text-center" style="width: auto;">
+
+    <div class="card-body">
+
+        <p class="card-text">Cartago, Costa Rica.</p>
+    </div>
+    <div class="card-footer text-muted">
+        2022
+    </div>
+</div>
+</body>
+</html>
